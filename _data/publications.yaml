@@ -4,7 +4,7 @@ papers:
     image: "/assets/publications/2023_iclr/Base-C-AER.png"
     authors: "<b><u>Hyunji Lee</u></b>, Jaeyoung Kim, Hoyeon Chang, Hanseok Oh, Sohee Yang, Vlad Karpukhin, Yi Lu, Minjoon Seo"
     venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2210.01504"
+    paper_pdf: "http://arxiv.org/abs/2210.02068"
     code: "https://github.com/amy-hyunji/Contextualized-Generative-Retrieval"
     selected: y
 
@@ -13,6 +13,7 @@ papers:
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
+    code: "https://github.com/amy-hyunji/Generative-Multihop-Retrieval"
     selected: y
 
   - title: "Cost-effective End-to-end Information Extraction for Semi-structured Document Images"
