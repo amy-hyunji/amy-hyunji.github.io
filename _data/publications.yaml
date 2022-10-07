@@ -11,7 +11,7 @@ papers:
   - title: "Generative Multi-hop Retrieval"
     image: "/assets/publications/2022_emnlp/GMR.png"
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
-    venue: "Preprint Under Review"
+    venue: "EMNLP 2022"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
     code: "https://github.com/amy-hyunji/Generative-Multihop-Retrieval"
     selected: y
