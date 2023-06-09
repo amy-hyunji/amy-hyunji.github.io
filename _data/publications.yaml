@@ -1,9 +1,23 @@
 papers:
 
-  - title: "Contextualized Generative Retrieval"
-    image: "/assets/publications/2023_iclr/Base-C-AER.png"
+  - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
+    authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2305.18952"
+    code: ""
+    selected: y
+
+
+  - title: "Improving Probability-based Prompt Selection Through Unified Evaluation and Analysis"
+    authors: "Sohee Yang, Jonghyeon Kim, Joel Jang, Seonghyeon Ye, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2305.14877"
+    code: "https://github.com/soheeyang/unified-prompt-selection"
+    selected: y
+
+  - title: "Nonparametric Decoding for Generative Retrieval"
     authors: "<b><u>Hyunji Lee</u></b>, Jaeyoung Kim, Hoyeon Chang, Hanseok Oh, Sohee Yang, Vlad Karpukhin, Yi Lu, Minjoon Seo"
-    venue: "Preprint Under Review"
+    venue: "Findings of ACL 2023"
     paper_pdf: "http://arxiv.org/abs/2210.02068"
     code: "https://github.com/amy-hyunji/Contextualized-Generative-Retrieval"
     selected: y

@@ -1,8 +1,19 @@
 experiences:
+
+- place: "Allen Institute of AI (AI2)"
+  time: "Summer 2023"
+  title: "Research Intern"
+  category: "work"
+
 - place: "KAIST Language & Knowledge Lab"
-  time: "Mar. 2021 - Present"
+  time: "Mar. 2023 - present"
+  title: "Ph.D Student (Advisor: Minjoon Seo)"
+  category: "school"
+
+
+- place: "KAIST Language & Knowledge Lab"
+  time: "Mar. 2021 - Feb. 2023"
   title: "M.S. Student (Advisor: Minjoon Seo)"
-  subtitle: "Interested on Information Retrieval"
   category: "school"
 
 - place: "Mindlogic Inc."
