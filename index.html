@@ -51,12 +51,6 @@ layout: default
       {% for paper in selected_papers %}
         <div class="paper">
           <div class="row">
-            <div class="four columns">
-              <div class="figure">
-                <img src="{{ paper.image }}" width="100%">
-              </div>
-            </div>
-            <div class="eight columns">
               <p class="title"><b>{{ paper.title }}</b></p>
               <p>{{ paper.authors }}</p>
               <p><i>{{ paper.venue }}</i></p>
@@ -80,8 +74,6 @@ layout: default
                 {% if paper.code %}
                   <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
                 {% endif %}
-              </div>
-            </div>
           </div>       
         </div>
       {% endfor %}
