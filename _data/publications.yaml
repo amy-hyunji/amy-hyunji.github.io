@@ -1,5 +1,13 @@
 papers:
 
+
+  - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
+    authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2307.02682"
+    code: ""
+    selected: y
+
   - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
     authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
     venue: "Preprint"
@@ -23,7 +31,6 @@ papers:
     selected: y
 
   - title: "Generative Multi-hop Retrieval"
-    image: "/assets/publications/2022_emnlp/GMR.png"
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
     venue: "EMNLP 2022"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
@@ -31,7 +38,6 @@ papers:
     selected: y
 
   - title: "Cost-effective End-to-end Information Extraction for Semi-structured Document Images"
-    image: "/assets/publications/2021_emnlp/cost.png"
     authors: "Wonseok Hwang, <b><u>Hyunji Lee</u></b>, Jinyeong Yim, Geewook Kim, Minjoon seo"
     venue: "EMNLP 2021 (short)"
     paper_pdf: "https://arxiv.org/abs/2104.08041"
