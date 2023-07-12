@@ -8,6 +8,14 @@ papers:
     code: ""
     selected: y
 
+  - title: "Local 3D Editing via 3D Distillation of CLIP Knowledge"
+    authors: "Junha Hyung, Sungwon Hwang, Daejin Kim, <b><u>Hyunji Lee</u></b>, Jaegul Choo"
+    venue: "CVPR 2023"
+    paper_pdf: "https://arxiv.org/abs/2306.12570"
+    code: "https://github.com/junhahyung/LENeRF_public"
+    selected: y
+
+
   - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
     authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
     venue: "Preprint"
