@@ -1,5 +1,25 @@
 papers:
 
+  - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
+    authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2311.09765"
+    code: "https://github.com/amy-hyunji/lora-for-retrieval"
+    selected: y
+
+  - title: "How Well Do Large Language Models Truly Ground?"
+    authors: "<b><u>Hyunji Lee</u></b>, Sejune Lee, Chaeeun Kim, Joel Jang, Kyung-Woon On, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2311.09069"
+    code: "https://github.com/kaistAI/How-Well-Do-LLMs-Truly-Ground"
+    selected: y
+
+  - title: "KTRL+F: Knowledge-Augmented In-Document Search"
+    authors: "Hanseok Oh*, Haebin Shin*, Miyoung Ko, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2307.02682"
+    code: ""
+    selected: y
 
   - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
     authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
