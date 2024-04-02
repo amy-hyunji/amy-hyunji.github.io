@@ -1,5 +1,12 @@
 papers:
 
+  - title: "Semiparametric Token-Sequence Co-Supervision"
+    authors: "<b><u>Hyunji Lee*</u></b>, Doyoung Kim*, Jihoon Jun, Sejune Joo, Joel Jang, Kyung-Woon On, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2403.09024"
+    code: "https://github.com/kaistAI/Semiparametric_Token-Sequence_Co-Supervision"
+    selected: y
+
   - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
     authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
     venue: "Preprint"
@@ -8,15 +15,15 @@ papers:
     selected: y
 
   - title: "How Well Do Large Language Models Truly Ground?"
-    authors: "<b><u>Hyunji Lee</u></b>, Sejune Lee, Chaeeun Kim, Joel Jang, Kyung-Woon On, Minjoon Seo"
-    venue: "Preprint"
+    authors: "<b><u>Hyunji Lee*</u></b>, Sejune Joo*, Chaeeun Kim, Joel Jang, Doyoung Kim, Kyung-Woon On, Minjoon Seo"
+    venue: "NACCL 2024"
     paper_pdf: "https://arxiv.org/abs/2311.09069"
     code: "https://github.com/kaistAI/How-Well-Do-LLMs-Truly-Ground"
     selected: y
 
   - title: "KTRL+F: Knowledge-Augmented In-Document Search"
     authors: "Hanseok Oh*, Haebin Shin*, Miyoung Ko, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
-    venue: "Preprint"
+    venue: "NACCL 2024"
     paper_pdf: "https://arxiv.org/abs/2311.08329"
     code: ""
     selected: y
@@ -46,7 +53,7 @@ papers:
 
   - title: "Improving Probability-based Prompt Selection Through Unified Evaluation and Analysis"
     authors: "Sohee Yang, Jonghyeon Kim, Joel Jang, Seonghyeon Ye, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
-    venue: "Preprint"
+    venue: "TACL 2024"
     paper_pdf: "https://arxiv.org/abs/2305.14877"
     code: "https://github.com/soheeyang/unified-prompt-selection"
     selected: y
