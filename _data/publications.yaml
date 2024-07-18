@@ -2,7 +2,7 @@ papers:
 
   - title: "Semiparametric Token-Sequence Co-Supervision"
     authors: "<b><u>Hyunji Lee*</u></b>, Doyoung Kim*, Jihoon Jun, Sejune Joo, Joel Jang, Kyung-Woon On, Minjoon Seo"
-    venue: "Preprint"
+    venue: "ACL 2024"
     paper_pdf: "https://arxiv.org/abs/2403.09024"
     code: "https://github.com/kaistAI/Semiparametric_Token-Sequence_Co-Supervision"
     selected: y
