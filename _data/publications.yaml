@@ -1,8 +1,36 @@
 papers:
 
+  - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
+      authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>*, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
+      venue: "Preprint"
+      paper_pdf: "https://arxiv.org/abs/2410.01380"
+      code: "https://github.com/kaistAI/Knowledge-Entropy.git"
+      selected: y
+      
+  - title: "RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"
+      authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
+      venue: "Preprint"
+      paper_pdf: "https://arxiv.org/abs/2409.02685"
+      code: "https://github.com/amy-hyunji/RouterRetriever"
+      selected: y
+      
+  - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
+    authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
+    venue: "EMNLP 2024"
+    paper_pdf: "https://arxiv.org/abs/2305.18952"
+    code: ""
+    selected: y
+
+  - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
+      authors: "Hanseok Oh, <b><u>Hyunji Lee*</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
+      venue: "ACL KnowledgeNLP Workshop 2024 Oral"
+      paper_pdf: "https://arxiv.org/abs/2402.14334"
+      code: "https://github.com/kaistAI/InstructIR"
+      selected: y
+
   - title: "Semiparametric Token-Sequence Co-Supervision"
     authors: "<b><u>Hyunji Lee*</u></b>, Doyoung Kim*, Jihoon Jun, Sejune Joo, Joel Jang, Kyung-Woon On, Minjoon Seo"
-    venue: "Preprint"
+    venue: "ACL 2024"
     paper_pdf: "https://arxiv.org/abs/2403.09024"
     code: "https://github.com/kaistAI/Semiparametric_Token-Sequence_Co-Supervision"
     selected: y
@@ -40,14 +68,6 @@ papers:
     venue: "CVPR 2023"
     paper_pdf: "https://arxiv.org/abs/2306.12570"
     code: "https://github.com/junhahyung/LENeRF_public"
-    selected: y
-
-
-  - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
-    authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2305.18952"
-    code: ""
     selected: y
 
 
