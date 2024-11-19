@@ -13,19 +13,27 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2409.02685"
     code: "https://github.com/amy-hyunji/RouterRetriever"
     selected: y
-      
+
+  - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
+    authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2311.09765"
+    code: "https://github.com/amy-hyunji/lora-for-retrieval"
+    selected: y
+
+  - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
+    authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
+    venue: "Preprint"
+    paper_pdf: "https://arxiv.org/abs/2307.02682"
+    code: ""
+    selected: y
+
   - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
+    year: "2024"
     authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
     venue: "EMNLP 2024"
     paper_pdf: "https://arxiv.org/abs/2305.18952"
     code: ""
-    selected: y
-
-  - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
-    authors: "Hanseok Oh, <b><u>Hyunji Lee*</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
-    venue: "ACL KnowledgeNLP Workshop 2024 Oral"
-    paper_pdf: "https://arxiv.org/abs/2402.14334"
-    code: "https://github.com/kaistAI/InstructIR"
     selected: y
 
   - title: "Semiparametric Token-Sequence Co-Supervision"
@@ -35,11 +43,18 @@ papers:
     code: "https://github.com/kaistAI/Semiparametric_Token-Sequence_Co-Supervision"
     selected: y
 
-  - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
-    authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2311.09765"
-    code: "https://github.com/amy-hyunji/lora-for-retrieval"
+  - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
+    authors: "Hanseok Oh, <b><u>Hyunji Lee*</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
+    venue: "ACL KnowledgeNLP Workshop 2024 Oral"
+    paper_pdf: "https://arxiv.org/abs/2402.14334"
+    code: "https://github.com/kaistAI/InstructIR"
+    selected: y
+
+  - title: "Improving Probability-based Prompt Selection Through Unified Evaluation and Analysis"
+    authors: "Sohee Yang, Jonghyeon Kim, Joel Jang, Seonghyeon Ye, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
+    venue: "TACL 2024"
+    paper_pdf: "https://arxiv.org/abs/2305.14877"
+    code: "https://github.com/soheeyang/unified-prompt-selection"
     selected: y
 
   - title: "How Well Do Large Language Models Truly Ground?"
@@ -56,26 +71,12 @@ papers:
     code: ""
     selected: y
 
-  - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
-    authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2307.02682"
-    code: ""
-    selected: y
-
   - title: "Local 3D Editing via 3D Distillation of CLIP Knowledge"
+    year: "2023"
     authors: "Junha Hyung, Sungwon Hwang, Daejin Kim, <b><u>Hyunji Lee</u></b>, Jaegul Choo"
     venue: "CVPR 2023"
     paper_pdf: "https://arxiv.org/abs/2306.12570"
     code: "https://github.com/junhahyung/LENeRF_public"
-    selected: y
-
-
-  - title: "Improving Probability-based Prompt Selection Through Unified Evaluation and Analysis"
-    authors: "Sohee Yang, Jonghyeon Kim, Joel Jang, Seonghyeon Ye, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
-    venue: "TACL 2024"
-    paper_pdf: "https://arxiv.org/abs/2305.14877"
-    code: "https://github.com/soheeyang/unified-prompt-selection"
     selected: y
 
   - title: "Nonparametric Decoding for Generative Retrieval"
@@ -86,6 +87,7 @@ papers:
     selected: y
 
   - title: "Generative Multi-hop Retrieval"
+    year: "2022"
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
     venue: "EMNLP 2022"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
@@ -93,6 +95,7 @@ papers:
     selected: y
 
   - title: "Cost-effective End-to-end Information Extraction for Semi-structured Document Images"
+    year: "2021"
     authors: "Wonseok Hwang, <b><u>Hyunji Lee</u></b>, Jinyeong Yim, Geewook Kim, Minjoon seo"
     venue: "EMNLP 2021 (short)"
     paper_pdf: "https://arxiv.org/abs/2104.08041"
