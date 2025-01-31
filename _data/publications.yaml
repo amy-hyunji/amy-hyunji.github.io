@@ -1,15 +1,27 @@
 papers:
 
+  - title: "Enhancing Language Models to Efficiently Generate All Relevant Answers from Complex, Interrelated Contexts"
+    authors: "<b><u>Hyunji Lee</u></b>, Franck Dernoncourt, Trung Bui, Seunghyun Yoon"
+    venue: "NACCL 2025"
+    paper_pdf: "https://arxiv.org/abs/2410.07571"
+    selected: y
+ 
+  - title: "How Does Vision-Language Adaptation Impact the Safety of Vision Language Models?"
+    authors: "Seongyun Lee*, Geewook Kim*, Jiyeon Kim*, <b><u>Hyunji Lee</u></b>, Hoyeon Chang, Sue Hyun Park, Minjoon Seo"
+    venue: "ICLR 2025"
+    paper_pdf: "https://arxiv.org/abs/2410.07571"
+    selected: y
+ 
   - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
-    venue: "Preprint"
+    venue: "ICLR 2025"
     paper_pdf: "https://arxiv.org/abs/2410.01380"
-    code: "https://github.com/kaistAI/Knowledge-Entropy.git"
+    code: "https://github.com/kaistAI/Knowledge-Entropy"
     selected: y
       
   - title: "RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"
     authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
-    venue: "Preprint"
+    venue: "AAAI 2025"
     paper_pdf: "https://arxiv.org/abs/2409.02685"
     code: "https://github.com/amy-hyunji/RouterRetriever"
     selected: y
@@ -28,9 +40,9 @@ papers:
     code: ""
     selected: y
 
-  - title: "Continually Updating Generative Retrieval on Dynamic Corpora"
+  - title: "Exploring the practicality of generative retrieval on dynamic corpora"
     year: "2024"
-    authors: "Soyoung Yoon, Chaeeun Kim, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
+    authors: "Chaeeun Kim*, Soyoung Yoon*, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
     venue: "EMNLP 2024"
     paper_pdf: "https://arxiv.org/abs/2305.18952"
     code: ""
@@ -44,7 +56,7 @@ papers:
     selected: y
 
   - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
-    authors: "Hanseok Oh, <b><u>Hyunji Lee*</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
+    authors: "Hanseok Oh, <b><u>Hyunji Lee</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
     venue: "ACL KnowledgeNLP Workshop 2024 Oral"
     paper_pdf: "https://arxiv.org/abs/2402.14334"
     code: "https://github.com/kaistAI/InstructIR"
