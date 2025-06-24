@@ -207,6 +207,8 @@ h4 {
   margin-bottom: 15px;
   padding: 10px 0;
   border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: flex-start;
 }
 
 .news-list li:last-child {
@@ -217,13 +219,14 @@ h4 {
 .news-date {
   font-weight: 600;
   color: #555;
-  display: inline-block;
-  min-width: 120px;
+  flex-shrink: 0;
   margin-right: 15px;
 }
 
 .news-content {
   color: #333;
+  flex: 1;
+  text-align: justify;
 }
 
 .news-content a {
