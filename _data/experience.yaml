@@ -3,21 +3,25 @@ experiences:
 - place: "Microsoft Research"
   time: "Summer 2025"
   title: "Research Intern"
+  subtitle: "Working on Enhancing LLM Code Understanding"
   category: "work"
 
 - place: "Tencent AI Seattle"
   time: "Winter 2024"
   title: "Research Intern"
+  subtitle: "Worked on hybrid models (linear models + attention-based models) to enhance recall ability with high efficiency"
   category: "work"
 
 - place: "Adobe Inc."
   time: "Summer 2024"
   title: "Research Intern"
+  subtitle: "Worked on enhancing answering over complex, interrelated contexts"
   category: "work"
 
 - place: "Allen Institute of AI (AI2)"
   time: "Summer 2023"
   title: "Research Intern"
+  subtitle: "Worked on enhancing retrieval models on out-of-domain"
   category: "work"
 
 - place: "KAIST Language & Knowledge Lab"
@@ -32,7 +36,7 @@ experiences:
 
 - place: "Mindlogic Inc."
   time: "Dec. 2020 - Jan. 2021"
-  title: "AI Research Intern & Software Enginner"
+  title: "AI Research Intern & Software Engineer"
   subtitle: "Worked on Developing IR and QA Models for Chatbot"
   category: "work"
 
