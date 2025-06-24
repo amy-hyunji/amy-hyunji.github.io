@@ -19,13 +19,14 @@ papers:
     year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.07571"
     selected: y
- 
+
   - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
     venue: "ICLR 2025 Oral"
     year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.01380"
     code: "https://github.com/kaistAI/Knowledge-Entropy"
+    awards: "Best Paper, Towards Knowledgeable Foundation Models @AAAI 2025 Workshop"
     selected: y
       
   - title: "RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"
@@ -72,6 +73,7 @@ papers:
     venue: "NAACL 2024 Oral"
     year: "2024"
     paper_pdf: "https://arxiv.org/abs/2311.09069"
+    awards: "Best Student Paper, Knowledge-Augmented NLP Workshop @ACL 2024"
     code: "https://github.com/kaistAI/How-Well-Do-LLMs-Truly-Ground"
     selected: y
 

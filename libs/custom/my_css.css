@@ -316,6 +316,14 @@ h4 {
   margin-top: 0;
 }
 
+/* ================ Paper Awards ================ */
+.paper-awards {
+  color: #d4691f;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
 /* ================ Vitae Summary ================ */
 .vitae-summary {
   padding: 20px 0;

@@ -80,8 +80,7 @@ layout: default
         <h6 class="category-header">Preprint</h6>
         {% assign preprints = selected_papers | where: "venue", "Preprint" %}
         {% assign preprints_by_year = preprints | group_by: "year" | sort: "name" | reverse %}
-        
-        {% for year_group in preprints_by_year %}
+          {% for year_group in preprints_by_year %}
           <div class="year-subsection">
             <h6 class="year-subheader">{{ year_group.name }}</h6>
             
@@ -91,6 +90,9 @@ layout: default
                     <p class="title"><b>{{ paper.title }}</b></p>
                     <p>{{ paper.authors }}</p>
                     <p><i>{{ paper.venue }}</i></p>
+                    {% if paper.awards %}
+                      <p class="paper-awards"><i>{{ paper.awards }}</i></p>
+                    {% endif %}
                     <div class="paper-buttons">
                       {% if paper.paper_pdf %}
                         <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
@@ -123,8 +125,7 @@ layout: default
         <h6 class="category-header">Peer-Reviewed</h6>
         {% assign accepted_papers = selected_papers | where_exp: "paper", "paper.venue != 'Preprint'" %}
         {% assign accepted_by_year = accepted_papers | group_by: "year" | sort: "name" | reverse %}
-        
-        {% for year_group in accepted_by_year %}
+          {% for year_group in accepted_by_year %}
           <div class="year-subsection">
             <h6 class="year-subheader">{{ year_group.name }}</h6>
             
@@ -134,6 +135,9 @@ layout: default
                     <p class="title"><b>{{ paper.title }}</b></p>
                     <p>{{ paper.authors }}</p>
                     <p><i>{{ paper.venue }}</i></p>
+                    {% if paper.awards %}
+                      <p class="paper-awards"><i>{{ paper.awards }}</i></p>
+                    {% endif %}
                     <div class="paper-buttons">
                       {% if paper.paper_pdf %}
                         <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
