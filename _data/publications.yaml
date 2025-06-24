@@ -1,20 +1,29 @@
 papers:
+  - title: "Context-Informed Grounding Supervision"
+    authors: "<b><u>Hyunji Lee</u></b>, Seunghyun Yoon, Yunjae Won, Hanseok Oh, Geewook Kim, Trung Bui, Franck Dernoncourt, Elias Stengel-Eskin, Mohit Bansal, Minjoon Seo"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2506.15480"
+    selected: y
 
-  - title: "Enhancing Language Models to Efficiently Generate All Relevant Answers from Complex, Interrelated Contexts"
+  - title: "COrg: Generating Answers from Complex, Interrelated Contexts"
     authors: "<b><u>Hyunji Lee</u></b>, Franck Dernoncourt, Trung Bui, Seunghyun Yoon"
     venue: "NACCL 2025"
-    paper_pdf: "https://arxiv.org/abs/2410.07571"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2505.00023v1"
     selected: y
  
   - title: "How Does Vision-Language Adaptation Impact the Safety of Vision Language Models?"
     authors: "Seongyun Lee*, Geewook Kim*, Jiyeon Kim*, <b><u>Hyunji Lee</u></b>, Hoyeon Chang, Sue Hyun Park, Minjoon Seo"
     venue: "ICLR 2025"
+    year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.07571"
     selected: y
  
   - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
     venue: "ICLR 2025"
+    year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.01380"
     code: "https://github.com/kaistAI/Knowledge-Entropy"
     selected: y
@@ -22,24 +31,10 @@ papers:
   - title: "RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"
     authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
     venue: "AAAI 2025"
+    year: "2025"
     paper_pdf: "https://arxiv.org/abs/2409.02685"
     code: "https://github.com/amy-hyunji/RouterRetriever"
     selected: y
-
-  - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
-    authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2311.09765"
-    code: "https://github.com/amy-hyunji/lora-for-retrieval"
-    selected: y
-
-  - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
-    authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
-    venue: "Preprint"
-    paper_pdf: "https://arxiv.org/abs/2307.02682"
-    code: ""
-    selected: y
-
   - title: "Exploring the practicality of generative retrieval on dynamic corpora"
     year: "2024"
     authors: "Chaeeun Kim*, Soyoung Yoon*, <b><u>Hyunji Lee</u></b>, Joel Jang, Minjoon Seo"
@@ -51,6 +46,7 @@ papers:
   - title: "Semiparametric Token-Sequence Co-Supervision"
     authors: "<b><u>Hyunji Lee*</u></b>, Doyoung Kim*, Jihoon Jun, Sejune Joo, Joel Jang, Kyung-Woon On, Minjoon Seo"
     venue: "ACL 2024"
+    year: "2024"
     paper_pdf: "https://arxiv.org/abs/2403.09024"
     code: "https://github.com/kaistAI/Semiparametric_Token-Sequence_Co-Supervision"
     selected: y
@@ -58,6 +54,7 @@ papers:
   - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
     authors: "Hanseok Oh, <b><u>Hyunji Lee</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
     venue: "ACL KnowledgeNLP Workshop 2024 Oral"
+    year: "2024"
     paper_pdf: "https://arxiv.org/abs/2402.14334"
     code: "https://github.com/kaistAI/InstructIR"
     selected: y
@@ -65,6 +62,7 @@ papers:
   - title: "Improving Probability-based Prompt Selection Through Unified Evaluation and Analysis"
     authors: "Sohee Yang, Jonghyeon Kim, Joel Jang, Seonghyeon Ye, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
     venue: "TACL 2024"
+    year: "2024"
     paper_pdf: "https://arxiv.org/abs/2305.14877"
     code: "https://github.com/soheeyang/unified-prompt-selection"
     selected: y
@@ -72,6 +70,7 @@ papers:
   - title: "How Well Do Large Language Models Truly Ground?"
     authors: "<b><u>Hyunji Lee*</u></b>, Sejune Joo*, Chaeeun Kim, Joel Jang, Doyoung Kim, Kyung-Woon On, Minjoon Seo"
     venue: "NACCL 2024"
+    year: "2024"
     paper_pdf: "https://arxiv.org/abs/2311.09069"
     code: "https://github.com/kaistAI/How-Well-Do-LLMs-Truly-Ground"
     selected: y
@@ -79,9 +78,27 @@ papers:
   - title: "KTRL+F: Knowledge-Augmented In-Document Search"
     authors: "Hanseok Oh*, Haebin Shin*, Miyoung Ko, <b><u>Hyunji Lee</u></b>, Minjoon Seo"
     venue: "NACCL 2024"
+    year: "2024"
     paper_pdf: "https://arxiv.org/abs/2311.08329"
     code: ""
     selected: y
+
+  - title: "Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders"
+    authors: "<b><u>Hyunji Lee</u></b>, Luca Soldani, Arman Cohan, Minjoon Seo, Kyle Lo"
+    venue: "Preprint"
+    year: "2023"
+    paper_pdf: "https://arxiv.org/abs/2311.09765"
+    code: "https://github.com/amy-hyunji/lora-for-retrieval"
+    selected: y
+
+  - title: "Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment"
+    authors: "Yongrae Jo, Seongyun Lee, Aiden SJ Lee, <b><u>Hyunji Lee</u></b>, Hanseok Oh, Minjoon Seo"
+    venue: "Preprint"
+    year: "2023"
+    paper_pdf: "https://arxiv.org/abs/2307.02682"
+    code: ""
+    selected: y
+
 
   - title: "Local 3D Editing via 3D Distillation of CLIP Knowledge"
     year: "2023"
@@ -94,6 +111,7 @@ papers:
   - title: "Nonparametric Decoding for Generative Retrieval"
     authors: "<b><u>Hyunji Lee</u></b>, Jaeyoung Kim, Hoyeon Chang, Hanseok Oh, Sohee Yang, Vlad Karpukhin, Yi Lu, Minjoon Seo"
     venue: "Findings of ACL 2023"
+    year: "2023"
     paper_pdf: "http://arxiv.org/abs/2210.02068"
     code: "https://github.com/amy-hyunji/Contextualized-Generative-Retrieval"
     selected: y

@@ -1,16 +1,40 @@
 ---
 layout: default
 ---
+
+<!-- Navigation -->
+<div class="navbar-spacer"></div>
+<nav class="navbar">
+  <div class="container">
+    <ul class="navbar-list">
+      <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="#news">News</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
+      <li class="navbar-item"><a class="navbar-link" href="#resume">Vitæ</a></li>
+    </ul>
+  </div>
+</nav>
+
 <!-- ========== About ========== -->
 <div class="docs-section" id="about">
   <h5>About</h5>
   Hello! I am a final-year PhD Student at the <b><a href="https://lklab.kaist.ac.kr/">Language & Knowledge Lab</a></b> at KAIST, advised by <b><a href="https://seominjoon.github.io/">Minjoon Seo</a></b>. 
   I am interested in building a robust semi-parametric model that aligns with external knowledge modules thereby capitalizing on the strengths of both the model’s parametric knowledge space and external nonparametric knowledge space, aiming to achieve the optimal performance.
-
   Previously, I graduated with M.S. at the <b><a href="https://lklab.kaist.ac.kr/">Language & Knowledge Lab</a></b> at KAIST, advised by <b><a href="https://seominjoon.github.io/">Minjoon Seo</a></b>, and B.S. from <b><a href="https://www.kaist.ac.kr/en/">KAIST</a></b> in computer science and electrical engineering (double major), where I was advised by <b><a href="https://mp2893.com/">Edward Choi</a></b> and <b><a href="http://athena.kaist.ac.kr/">Hyun Wook Park</a></b>. 
 </div>
 
-
+<!-- ========== News ========== -->
+<div class="docs-section" id="news">
+  <h5>News</h5>
+  <ul class="news-list">
+    {% for item in site.data.news.news %}
+    <li>
+      <span class="news-date">[{{ item.date }}]</span>
+      <span class="news-content">{{ item.content }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <!-- ========== Education ========== -->
 <!-- <div class="docs-section" id="education">
@@ -47,40 +71,95 @@ layout: default
   <!-- <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
-  </ul> -->
-
-  <div class="tab-content">
+  </ul> -->  <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <div class="row">
-              <p class="title"><b>{{ paper.title }}</b></p>
-              <p>{{ paper.authors }}</p>
-              <p><i>{{ paper.venue }}</i></p>
-              <div class="paper-buttons">
-                {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
-                {% endif %}
+      
+      <!-- Preprints Section -->
+      <div class="publication-category">
+        <h6 class="category-header">Preprints</h6>
+        {% assign preprints = selected_papers | where: "venue", "Preprint" %}
+        {% assign preprints_by_year = preprints | group_by: "year" | sort: "name" | reverse %}
+        
+        {% for year_group in preprints_by_year %}
+          <div class="year-subsection">
+            <h6 class="year-subheader">{{ year_group.name }}</h6>
+            
+            {% for paper in year_group.items %}
+              <div class="paper">
+                <div class="row">
+                    <p class="title"><b>{{ paper.title }}</b></p>
+                    <p>{{ paper.authors }}</p>
+                    <p><i>{{ paper.venue }}</i></p>
+                    <div class="paper-buttons">
+                      {% if paper.paper_pdf %}
+                        <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                      {% endif %}
 
-                {% if paper.slides %}
-                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-                {% endif %}
+                      {% if paper.slides %}
+                        <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                      {% endif %}
 
-                {% if paper.poster %}
-                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-                {% endif %}
+                      {% if paper.poster %}
+                        <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                      {% endif %}
 
-                {% if paper.video %}
-                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-                {% endif %}
+                      {% if paper.video %}
+                        <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                      {% endif %}
 
-                {% if paper.code %}
-                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-                {% endif %}
-          </div>       
-        </div>
-      {% endfor %}
+                      {% if paper.code %}
+                        <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                      {% endif %}
+                </div>       
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+      
+      <!-- Accepted Papers Section -->
+      <div class="publication-category">
+        <h6 class="category-header">Accepted Papers</h6>
+        {% assign accepted_papers = selected_papers | where_exp: "paper", "paper.venue != 'Preprint'" %}
+        {% assign accepted_by_year = accepted_papers | group_by: "year" | sort: "name" | reverse %}
+        
+        {% for year_group in accepted_by_year %}
+          <div class="year-subsection">
+            <h6 class="year-subheader">{{ year_group.name }}</h6>
+            
+            {% for paper in year_group.items %}
+              <div class="paper">
+                <div class="row">
+                    <p class="title"><b>{{ paper.title }}</b></p>
+                    <p>{{ paper.authors }}</p>
+                    <p><i>{{ paper.venue }}</i></p>
+                    <div class="paper-buttons">
+                      {% if paper.paper_pdf %}
+                        <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                      {% endif %}
+
+                      {% if paper.slides %}
+                        <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                      {% endif %}
+
+                      {% if paper.poster %}
+                        <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                      {% endif %}
+
+                      {% if paper.video %}
+                        <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                      {% endif %}
+
+                      {% if paper.code %}
+                        <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                      {% endif %}
+                </div>       
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
     </div>
 
     <!-- <div class="tab-pane" id="papers-all">
