@@ -9,7 +9,7 @@ news:
     content: "New preprint! <a href='https://arxiv.org/abs/2506.15480' target='_blank'>Context-Informed Grounded Supervision</a> introduces a new supervision method to enhance grounding ability in text and vision-language domain."
 
   - date: "May 2025"
-    content: "Joining Microsoft Research as a Research Intern for Summer 2025"
+    content: "Joining Microsoft Research as a Research Intern for Summer 2025. I'll be working on enhancing LLM code understanding!"
 
   - date: "March 2025"
     content: "<a href='https://arxiv.org/abs/2410.01380' target='_blank'>Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition</a> wins best paper award at KnowFM 2025!"
@@ -30,7 +30,7 @@ news:
     content: "<a href='https://arxiv.org/abs/2305.18952' target='_blank'>Exploring the Practicality of Generative Retrieval on Dynamic Corpora</a> has been accepted to EMNLP 2024!"
 
   - date: "October 2024"
-    content: "Joining Tencent AI (US) as a Research Intern for Winter 2024"
+    content: "Joining Tencent AI (US) as a Research Intern for Winter 2024. I'll be working on hybrid models (linear models + attention-based models) to enhance recall ability with high efficiency!"
  
   - date: "August 2024"
     content: "<a href='https://arxiv.org/abs/2311.09069' target='_blank'>How Well Do Large Language Models Truly Ground?</a> wins best student paper award at KnowledgeNLP 2024!"
@@ -42,7 +42,7 @@ news:
     content: "<a href='https://arxiv.org/abs/2403.09024' target='_blank'>Semiparametric Token-Sequence Co-Supervision</a> has been accepted to ACL 2024!"
 
   - date: "May 2024"
-    content: "Joining Adobe Research as a Research Intern for Summer 2024"
+    content: "Joining Adobe Research as a Research Intern for Summer 2024. I'll be working on enhancing answering over complex, interrelated contexts!"
  
   - date: "March 2024"
     content: "Two papers (<a href='https://arxiv.org/abs/2311.09069' target='_blank'>How Well Do Large Language Models Truly Ground?</a> and <a href='https://arxiv.org/abs/2311.08329' target='_blank'>KTRL+F: Knowledge-Augmented In-Document Search</a>) has been accepted to ACL 2024!"
@@ -57,7 +57,7 @@ news:
     content: "New preprint! <a href='https://arxiv.org/abs/2307.02682' target='_blank'>Zero-Shot Dense Video Captioning by Jointly Optimizing Text and Moment</a> introduces ZeroTA, a novel method for dense video captioning in a zero-shot manner."
 
   - date: "May 2023"
-    content: "Joining Allen Institute for AI (AI2) as a Research Intern for Summer 2023"
+    content: "Joining Allen Institute for AI (AI2) as a Research Intern for Summer 2023. I'll be working on enhancing retrieval models on out-of-domain!"
  
   - date: "May 2023"
     content: "<a href='https://arxiv.org/abs/2210.02068' target='_blank'>Nonparametric Decoding for Generative Retrieval</a> has been accepted to ACL Findings 2023!"
