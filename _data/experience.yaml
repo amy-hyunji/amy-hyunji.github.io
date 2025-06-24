@@ -27,11 +27,13 @@ experiences:
 - place: "KAIST Language & Knowledge Lab"
   time: "Mar. 2023 - present"
   title: "Ph.D Student (Advisor: Minjoon Seo)"
+  subtitle: "Research on semi-parametric models and knowledge alignment"
   category: "school"
 
 - place: "KAIST Language & Knowledge Lab"
   time: "Mar. 2021 - Feb. 2023"
   title: "M.S. Student (Advisor: Minjoon Seo)"
+  subtitle: "Research on generative retrieval and information extraction"
   category: "school"
 
 - place: "Mindlogic Inc."
@@ -67,4 +69,5 @@ experiences:
 - place: "KAIST"
   time: "Mar. 2016 - Feb. 2021"
   title: "B.S. in Computer Science & Electrical Engineering (Double Major)"
+  subtitle: "Focus on machine learning, deep learning, and computer vision"
   category: "school"
