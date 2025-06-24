@@ -1,9 +1,9 @@
 news:
   - date: "June 2025"
-    content: "I will be starting a Postdoc with Mohit Bansal at the University of North Carolina, Chapel Hill from Fall 2025! Looking forward to lots of collaborations with the amazing students and faculty of UNC NLP and UNC CS!"
+    content: "I will be starting a Postdoc with <a href='https://www.cs.unc.edu/~mbansal' target='_blank'>Mohit Bansal</a> at the University of North Carolina, Chapel Hill from Fall 2025! Looking forward to lots of collaborations with the amazing students and faculty of UNC NLP and UNC CS!"
 
   - date: "June 2025"
-    content: "Successfully defended PhD thesis 'Aligning Knowledge Modules with Language Models'. Many thanks to my advisor Minjoon Seo and the committee members, Arman Cohan, Edward Choi, Eunsol Choi, and James Throne!"
+    content: "Successfully defended PhD thesis 'Aligning Knowledge Modules with Language Models'. Many thanks to my advisor <a href='https://seominjoon.github.io/' target='_blank'>Minjoon Seo</a> and the committee members, <a href='https://armancohan.com/' target='_blank'>Arman Cohan</a>, <a href='https://mp2893.com/' target='_blank'>Edward Choi</a>, <a href='https://eunsol.github.io/' target='_blank'>Eunsol Choi</a>, and <a href='https://jamesthorne.com/' target='_blank'>James Throne</a>!"
   
   - date: "June 2025"
     content: "New preprint! <a href='https://arxiv.org/abs/2506.15480' target='_blank'>Context-Informed Grounded Supervision</a> introduces a new supervision method to enhance grounding ability in text and vision-language domain."
