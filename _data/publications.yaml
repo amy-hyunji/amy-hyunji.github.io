@@ -124,6 +124,7 @@ papers:
     venue: "EMNLP 2022 Oral"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
     code: "https://github.com/amy-hyunji/Generative-Multihop-Retrieval"
+    awards: "Finalist, Qualcomm Innovation Fellowship 2023"
     selected: y
 
   - title: "Cost-effective End-to-end Information Extraction for Semi-structured Document Images"
