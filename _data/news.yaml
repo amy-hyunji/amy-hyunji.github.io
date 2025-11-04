@@ -1,4 +1,7 @@
 news:
+  - date: "Nov 2025"
+    content: "New preprint! <a href='https://arxiv.org/abs/2510.26790' target='_blank'>Gistify! Codebase-Level Understanding via Runtime Execution</a> introduces a lightweight, broadly applicable evaluation that tests whether models can reason at the codebase level."
+
   - date: "June 2025"
     content: "I will be starting a Postdoc with <a href='https://www.cs.unc.edu/~mbansal' target='_blank'>Mohit Bansal</a> at the University of North Carolina, Chapel Hill from Fall 2025! Looking forward to lots of collaborations with the amazing students and faculty of UNC NLP and UNC CS!"
 
