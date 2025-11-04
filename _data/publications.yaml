@@ -1,4 +1,32 @@
 papers:
+  - title: "Gistify! Codebase-Level Understanding via Runtime Execution"
+    authors: "<b><u>Hyunji Lee*</u></b>, Minseon Kim, Chinmay Singh, Matheus Pereira, Atharv Sonwane, Isadora White, Elias Stengel-Eskin, Mohit Bansal, Zhengyan Shi, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan, Lucas Caccia*"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2510.26790"
+    selected: y
+
+  - title: "BugPilot: Complex Bug Generation for Efficient Learning of SWE Skills"
+    authors: "Atharv Sonwane*, Isadora White*, <b><u>Hyunji Lee</u></b>, Matheus Pereira, Lucas Caccia, Minseon Kim, Zhengyan Shi, Chinmay Singh, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2510.19898"
+    selected: y
+
+  - title: "Generalized correctness models: Learning calibrated and model-agnostic correctness predictors from historical patterns"
+    authors: "Hanqi Xiao, Vaidehi Patil, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansal"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2509.24988"
+    selected: y
+
+  - title: "Understanding and Enhancing Mamba-Transformer Hybrids for Memory Recall and Language Modeling"
+    authors: "<b><u>Hyunji Lee</u></b>, Wenhao Yu, Hongming Zhang, Kaixin Ma, Jiyeon Kim, Dong Yu, Minjoon Seo"
+    venue: "EMNLP BabyLM Workshop 2025"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2510.26912"
+    selected: y
+
   - title: "Context-Informed Grounding Supervision"
     authors: "<b><u>Hyunji Lee</u></b>, Seunghyun Yoon, Yunjae Won, Hanseok Oh, Geewook Kim, Trung Bui, Franck Dernoncourt, Elias Stengel-Eskin, Mohit Bansal, Minjoon Seo"
     venue: "Preprint"
