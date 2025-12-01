@@ -20,6 +20,13 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2509.24988"
     selected: y
 
+  - title: "Differential Information Distribution: A Bayesian Perspective on Direct Preference Optimization"
+    authors: "Yunjae Won, <b><u>Hyunji Lee</u></b>, Hyeonbin Hwang, Minjoon Seo"
+    venue: "Preprint"
+    year: "2025"
+    paper_pdf: "https://arxiv.org/abs/2505.23761"
+    selected: y
+
   - title: "Understanding and Enhancing Mamba-Transformer Hybrids for Memory Recall and Language Modeling"
     authors: "<b><u>Hyunji Lee</u></b>, Wenhao Yu, Hongming Zhang, Kaixin Ma, Jiyeon Kim, Dong Yu, Minjoon Seo"
     venue: "EMNLP BabyLM Workshop 2025"
