@@ -34,10 +34,10 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2510.26912"
     selected: y
 
-  - title: "Context-Informed Grounding Supervision"
+  - title: "Instruction Tuning with and without Context: Behavioral Shifts and Downstream Impact"
     authors: "<b><u>Hyunji Lee</u></b>, Seunghyun Yoon, Yunjae Won, Hanseok Oh, Geewook Kim, Trung Bui, Franck Dernoncourt, Elias Stengel-Eskin, Mohit Bansal, Minjoon Seo"
-    venue: "Preprint"
-    year: "2025"
+    venue: "EACL 2026"
+    year: "2026"
     paper_pdf: "https://arxiv.org/abs/2506.15480"
     selected: y
 
