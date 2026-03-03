@@ -1,8 +1,9 @@
 papers:
+
   - title: "Gistify! Codebase-Level Understanding via Runtime Execution"
     authors: "<b><u>Hyunji Lee*</u></b>, Minseon Kim, Chinmay Singh, Matheus Pereira, Atharv Sonwane, Isadora White, Elias Stengel-Eskin, Mohit Bansal, Zhengyan Shi, Alessandro Sordoni, Marc-Alexandre Côté, Xingdi Yuan, Lucas Caccia*"
-    venue: "Preprint"
-    year: "2025"
+    venue: "ICLR 2026"
+    year: "2026"
     paper_pdf: "https://arxiv.org/abs/2510.26790"
     selected: y
 
