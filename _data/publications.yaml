@@ -44,7 +44,7 @@ papers:
 
   - title: "Instruction Tuning with and without Context: Behavioral Shifts and Downstream Impact"
     authors: "<b><u>Hyunji Lee</u></b>, Seunghyun Yoon, Yunjae Won, Hanseok Oh, Geewook Kim, Trung Bui, Franck Dernoncourt, Elias Stengel-Eskin, Mohit Bansal, Minjoon Seo"
-    venue: "EACL 2026"
+    venue: "EACL 2026 <b>Oral</b>"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2506.15480"
     selected: y
@@ -65,7 +65,7 @@ papers:
 
   - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
-    venue: "ICLR 2025 Oral"
+    venue: "ICLR 2025 <b>Oral</b>"
     year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.01380"
     code: "https://github.com/kaistAI/Knowledge-Entropy"
@@ -97,7 +97,7 @@ papers:
 
   - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
     authors: "Hanseok Oh, <b><u>Hyunji Lee</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
-    venue: "ACL KnowledgeNLP Workshop 2024 Oral"
+    venue: "ACL KnowledgeNLP Workshop 2024 <b>Oral</b>"
     year: "2024"
     paper_pdf: "https://arxiv.org/abs/2402.14334"
     code: "https://github.com/kaistAI/InstructIR"
@@ -113,7 +113,7 @@ papers:
 
   - title: "How Well Do Large Language Models Truly Ground?"
     authors: "<b><u>Hyunji Lee*</u></b>, Sejune Joo*, Chaeeun Kim, Joel Jang, Doyoung Kim, Kyung-Woon On, Minjoon Seo"
-    venue: "NAACL 2024 Oral"
+    venue: "NAACL 2024 <b>Oral</b>"
     year: "2024"
     paper_pdf: "https://arxiv.org/abs/2311.09069"
     awards: "Best Student Paper, Knowledge-Augmented NLP Workshop @ACL 2024"
@@ -164,7 +164,7 @@ papers:
   - title: "Generative Multi-hop Retrieval"
     year: "2022"
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
-    venue: "EMNLP 2022 Oral"
+    venue: "EMNLP 2022 <b>Oral</b>"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
     code: "https://github.com/amy-hyunji/Generative-Multihop-Retrieval"
     awards: "Finalist, Qualcomm Innovation Fellowship 2023"
