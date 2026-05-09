@@ -1,5 +1,47 @@
 papers:
 
+  - title: "Conflict-Resolving and Sharpness-Aware Minimization for Generalized Knowledge Editing with Multiple Updates"
+    authors: "Duy Nguyen, Hanqi Xiao, Archiki Prasad, Elias Stengel-Eskin, <b><u>Hyunji Lee</u></b>, Mohit Bansal"
+    venue: "Preprint"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/abs/2602.03696"
+    selected: y
+
+  - title: "Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind"
+    authors: "Hanqi Xiao*, Vaidehi Patil*, Zaid Khan, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansal"
+    venue: "Preprint"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/abs/2604.11666"
+    selected: y
+
+  - title: "Balancing Faithfulness and Performance in Reasoning via Multi-Listener Soft Execution"
+    authors: "Nithin Sivakumaran, Shoubin Yu, <b><u>Hyunji Lee</u></b>, Yue Zhang, Ali Payani, Mohit Bansal, Elias Stengel-Eskin"
+    venue: "Preprint"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/pdf/2602.16154"
+    selected: y
+
+  - title: "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments"
+    authors: "Han Wang*, David Wan*, <b><u>Hyunji Lee</u></b>*, Thinh Pham, Mikaela Cankosyan, Weiyuan Chen, Elias Stengel-Eskin, Tu Vu, Mohit Bansal"
+    venue: "Preprint"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/abs/2604.13418"
+    selected: y
+
+  - title: "Multimodal Fact-Level Attribution for Verifiable Reasoning"
+    authors: "David Wan*, Han Wang*, Ziyang Wang, Elias Stengel-Eskin, <b><u>Hyunji Lee</u></b>, Mohit Bansal"
+    venue: "ICML 2026"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/abs/2602.11509"
+    selected: y
+
+  - title: "Generalized correctness models: Learning calibrated and model-agnostic correctness predictors from historical patterns"
+    authors: "Hanqi Xiao, Vaidehi Patil, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansal"
+    venue: "ICML 2026"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/abs/2509.24988"
+    selected: y
+
   - title: "Can Large Language Models Keep Up? Benchmarking Online Adaptation to Continual Knowledge Streams"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Dylan Zhou*, Sue Hyun Park, Seunghyun Yoon, Trung Bui, Franck Dernoncourt, Sungmin Cha, Minjoon Seo"
     venue: "ACL 2026"
@@ -19,13 +61,6 @@ papers:
     venue: "Preprint"
     year: "2025"
     paper_pdf: "https://arxiv.org/abs/2510.19898"
-    selected: y
-
-  - title: "Generalized correctness models: Learning calibrated and model-agnostic correctness predictors from historical patterns"
-    authors: "Hanqi Xiao, Vaidehi Patil, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansal"
-    venue: "Preprint"
-    year: "2025"
-    paper_pdf: "https://arxiv.org/abs/2509.24988"
     selected: y
 
   - title: "Differential Information Distribution: A Bayesian Perspective on Direct Preference Optimization"
