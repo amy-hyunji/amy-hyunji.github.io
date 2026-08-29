@@ -2,21 +2,21 @@ papers:
 
   - title: "MINTEVAL: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems"
     authors: "<b><u>Hyunji Lee</u></b>*, Justin Chih-Yao Chen*, Joykirat Singh, Zaid Khan, Elias Stengel-Eskin, Mohit Bansal"
-    venue: "preprint"
+    venue: "Preprint"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2605.18565"
     selected: y
 
   - title: "Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty"
     authors: "Joykirat Singh, Zaid Khan, Archiki Prasad, Justin Chih-Yao Chen, Akshay Nambi, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansall"
-    venue: "preprint"
+    venue: "Preprint"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2605.11436"
     selected: y
 
   - title: "AVSD: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals"
     authors: "Duy Nguyen, Hanqi Xiao, Archiki Prasad, Zaid Khan, Anirban Das, Austin Zhang, Sambit Sahu, <b><u>Hyunji Lee</u></b>, Elias Stengel-Eskin, Mohit Bansal"
-    venue: "preprint"
+    venue: "Preprint"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2605.20643"
     selected: y
@@ -42,9 +42,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2606.11078"
     selected: y
 
+  - title: "Balancing Faithfulness and Performance in Reasoning via Multi-Listener Soft Execution"
+    authors: "Nithin Sivakumaran, Shoubin Yu, <b><u>Hyunji Lee</u></b>, Yue Zhang, Ali Payani, Mohit Bansal, Elias Stengel-Eskin"
+    venue: "Findings of EMNLP 2026"
+    year: "2026"
+    paper_pdf: "https://arxiv.org/pdf/2602.16154"
+    selected: y
+
   - title: "EgoMemReason: A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding"
     authors: "Ziyang Wang*, Yue Zhang*, Shoubin Yu, Ce Zhang, Zengqi Zhao, Jaehong Yoon,  <b><u>Hyunji Lee</u></b>, Gedas Bertasius, Mohit Bansal"
-    venue: "Preprint"
+    venue: "COLM 2026"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2605.09874"
     selected: y
@@ -63,12 +70,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2604.11666"
     selected: y
 
-  - title: "Balancing Faithfulness and Performance in Reasoning via Multi-Listener Soft Execution"
-    authors: "Nithin Sivakumaran, Shoubin Yu, <b><u>Hyunji Lee</u></b>, Yue Zhang, Ali Payani, Mohit Bansal, Elias Stengel-Eskin"
-    venue: "Findings of EMNLP 2026"
-    year: "2026"
-    paper_pdf: "https://arxiv.org/pdf/2602.16154"
-    selected: y
 
   - title: "MERRIN: A Benchmark for Multimodal Evidence Retrieval and Reasoning in Noisy Web Environments"
     authors: "Han Wang*, David Wan*, <b><u>Hyunji Lee</u></b>*, Thinh Pham, Mikaela Cankosyan, Weiyuan Chen, Elias Stengel-Eskin, Tu Vu, Mohit Bansal"
@@ -128,7 +129,7 @@ papers:
 
   - title: "Instruction Tuning with and without Context: Behavioral Shifts and Downstream Impact"
     authors: "<b><u>Hyunji Lee</u></b>, Seunghyun Yoon, Yunjae Won, Hanseok Oh, Geewook Kim, Trung Bui, Franck Dernoncourt, Elias Stengel-Eskin, Mohit Bansal, Minjoon Seo"
-    venue: "EACL 2026 <b>Oral</b>"
+    venue: "EACL 2026 <b style='color: #7a4fa8'>Oral</b>"
     year: "2026"
     paper_pdf: "https://arxiv.org/abs/2506.15480"
     selected: y
@@ -149,7 +150,7 @@ papers:
 
   - title: "Knowledge Entropy Decay during Language Model Pretraining Hinders New Knowledge Acquisition"
     authors: "Jiyeon Kim*, <b><u>Hyunji Lee*</u></b>, Hyowon Cho, Joel Jang, Hyeonbin Hwang, Seungpil Won, Youbin Ahn, Dohaeng Lee, Minjoon Seo"
-    venue: "ICLR 2025 <b>Oral</b>"
+    venue: "ICLR 2025 <b style='color: #7a4fa8'>Oral</b>"
     year: "2025"
     paper_pdf: "https://arxiv.org/abs/2410.01380"
     code: "https://github.com/kaistAI/Knowledge-Entropy"
@@ -181,7 +182,7 @@ papers:
 
   - title: "InstructIR: A Benchmark for Instruction Following of Information Retrieval Models"
     authors: "Hanseok Oh, <b><u>Hyunji Lee</u></b>, Seonghyeon Ye, Haebin Shin, Hansol Jang, Changwook Jun, Minjoon Seo"
-    venue: "ACL KnowledgeNLP Workshop 2024 <b>Oral</b>"
+    venue: "ACL KnowledgeNLP Workshop 2024 <b style='color: #7a4fa8'>Oral</b>"
     year: "2024"
     paper_pdf: "https://arxiv.org/abs/2402.14334"
     code: "https://github.com/kaistAI/InstructIR"
@@ -197,7 +198,7 @@ papers:
 
   - title: "How Well Do Large Language Models Truly Ground?"
     authors: "<b><u>Hyunji Lee*</u></b>, Sejune Joo*, Chaeeun Kim, Joel Jang, Doyoung Kim, Kyung-Woon On, Minjoon Seo"
-    venue: "NAACL 2024 <b>Oral</b>"
+    venue: "NAACL 2024 <b style='color: #7a4fa8'>Oral</b>"
     year: "2024"
     paper_pdf: "https://arxiv.org/abs/2311.09069"
     awards: "Best Student Paper, Knowledge-Augmented NLP Workshop @ACL 2024"
@@ -248,7 +249,7 @@ papers:
   - title: "Generative Multi-hop Retrieval"
     year: "2022"
     authors: "<b><u>Hyunji Lee</u></b>, Sohee Yang, Hanseok Oh, Minjoon Seo"
-    venue: "EMNLP 2022 <b>Oral</b>"
+    venue: "EMNLP 2022 <b style='color: #7a4fa8'>Oral</b>"
     paper_pdf: "https://arxiv.org/abs/2204.13596"
     code: "https://github.com/amy-hyunji/Generative-Multihop-Retrieval"
     awards: "Finalist, Qualcomm Innovation Fellowship 2023"
