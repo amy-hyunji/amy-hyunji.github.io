@@ -3,7 +3,7 @@ experiences:
 - place: "Microsoft Research"
   time: "Summer 2025"
   title: "Research Intern"
-  subtitle: "Working on Enhancing LLM Code Understanding"
+  subtitle: "Worked on Enhancing LLM Codebase Understanding"
   category: "work"
 
 - place: "Tencent AI Seattle"
@@ -25,33 +25,15 @@ experiences:
   category: "work"
 
 - place: "KAIST Language & Knowledge Lab"
-  time: "Mar. 2023 - present"
-  title: "Ph.D Student (Advisor: Minjoon Seo)"
-  subtitle: "Research on semi-parametric models and knowledge alignment"
+  time: "Mar. 2021 - Aug. 2025"
+  title: "M.S. / Ph.D Student (Advisor: Minjoon Seo)"
+  subtitle: "Aligning Language Model with Knowledge Modules"
   category: "school"
-
-- place: "KAIST Language & Knowledge Lab"
-  time: "Mar. 2021 - Feb. 2023"
-  title: "M.S. Student (Advisor: Minjoon Seo)"
-  subtitle: "Research on generative retrieval and information extraction"
-  category: "school"
-
-- place: "Mindlogic Inc."
-  time: "Dec. 2020 - Jan. 2021"
-  title: "AI Research Intern & Software Engineer"
-  subtitle: "Worked on Developing IR and QA Models for Chatbot"
-  category: "work"
 
 - place: "Naver Clova"
   time: "Jun. 2020 - Dec. 2020"
   title: "AI Research Intern"
   subtitle: "Worked on Developing End-to-End IE System"
-  category: "work"
-
-- place: "Mindlogic Inc."
-  time: "Jan. 2020 - Feb. 2020"
-  title: "AI Research Intern"
-  subtitle: "Worked on Developing Virtual-TryOn Model"
   category: "work"
 
 - place: "SKT"
